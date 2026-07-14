@@ -1,0 +1,22 @@
+name: Hardware issue
+description: Report a schematic, PCB, BOM or bring-up issue.
+title: "[Hardware]: "
+labels: [hardware]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: Describe the observed hardware issue.
+    validations:
+      required: true
+  - type: input
+    id: board
+    attributes:
+      label: Board revision
+      placeholder: e.g. HXTX_XS_WEAR 4.0 v125
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Photos, measurements, logs or reproduction notes.

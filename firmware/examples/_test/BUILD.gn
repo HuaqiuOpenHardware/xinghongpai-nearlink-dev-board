@@ -1,0 +1,9 @@
+static_library("hello") {
+  sources = [ "hello.c" ]
+
+  include_dirs = [
+    "//device/soc/hisilicon/ws63v100/sdk/middleware/utils/app_init",
+    "//device/soc/hisilicon/ws63v100/sdk/kernel/osal/include/debug",
+    "//device/soc/hisilicon/ws63v100/sdk/kernel/osal/include/memory",
+  ]
+} 

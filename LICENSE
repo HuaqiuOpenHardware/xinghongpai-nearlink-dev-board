@@ -1,0 +1,9 @@
+This repository contains multiple kinds of material with different license signals.
+
+Hardware design files: the original p.eda.cn project page lists "CERN Open Hardware License". The exact CERN-OHL variant is not specified on the page captured for this import.
+
+Firmware examples: source files that carry Apache License 2.0 headers remain under Apache-2.0 and retain their original copyright notices.
+
+Documentation, SDK packages and vendor materials: retain their original upstream licenses and notices.
+
+See LICENSES/README.md for operational guidance before reuse or redistribution.

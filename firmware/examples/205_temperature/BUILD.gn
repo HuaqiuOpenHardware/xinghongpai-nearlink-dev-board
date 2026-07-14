@@ -1,0 +1,27 @@
+static_library("205_temperature_demo") {
+  sources = [ 
+    "main.c",
+    "./aht20/aht20.c",
+    "./wifi/wifi_connect.c",
+  ]
+
+  include_dirs = [
+    "//device/soc/hisilicon/ws63v100/sdk/middleware/utils/app_init",
+    "//device/soc/hisilicon/ws63v100/sdk/kernel/osal/include/debug",
+    "//device/soc/hisilicon/ws63v100/sdk/kernel/osal/include/memory",
+    "//device/soc/hisilicon/ws63v100/sdk/include/driver",
+    "//device/soc/hisilicon/ws63v100/sdk/drivers/drivers/hal/gpio",
+    "//device/soc/hisilicon/ws63v100/sdk/drivers/chips/ws63/porting/gpio",
+    "//device/soc/hisilicon/ws63v100/sdk/drivers/drivers/hal/gpio/v150",
+    "//device/soc/hisilicon/ws63v100/sdk/drivers/chips/ws63/porting/pinctrl",
+    "//device/soc/hisilicon/ws63v100/sdk/drivers/drivers/hal/i2c",
+    "//device/soc/hisilicon/ws63v100/sdk/drivers/chips/ws63/porting/i2c",
+    "//device/soc/hisilicon/ws63v100/sdk/kernel/osal/include",
+    "///device/soc/hisilicon/ws63v100/sdk/include/middleware/services/wifi",
+    "//device/soc/hisilicon/ws63v100/sdk/middleware/utils/common_headers/native",
+    "//device/soc/hisilicon/ws63v100/sdk/open_source/cjson/cjson",
+    "//device/soc/hisilicon/ws63v100/sdk/drivers/boards/ws63/evb/linker/flashboot_linker",
+    "//device/soc/hisilicon/ws63v100/sdk/drivers/drivers/hal/uart",
+    "//device/soc/hisilicon/ws63v100/sdk/drivers/chips/ws63/porting/uart",
+  ]
+} 

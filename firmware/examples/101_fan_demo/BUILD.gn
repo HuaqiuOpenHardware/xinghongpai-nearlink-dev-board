@@ -1,0 +1,22 @@
+static_library("101_fan_demo") {
+  sources = [ 
+    "main.c",
+    "./fan/fan_demo.c",
+  ]
+
+  include_dirs = [
+    "//device/soc/hisilicon/ws63v100/sdk/middleware/utils/app_init",
+    "//device/soc/hisilicon/ws63v100/sdk/kernel/osal/include/debug",
+    "//device/soc/hisilicon/ws63v100/sdk/kernel/osal/include/memory",
+    "//device/soc/hisilicon/ws63v100/sdk/include/driver",
+    "//device/soc/hisilicon/ws63v100/sdk/drivers/drivers/hal/gpio",
+    "//device/soc/hisilicon/ws63v100/sdk/drivers/chips/ws63/porting/gpio",
+    "//device/soc/hisilicon/ws63v100/sdk/drivers/drivers/hal/gpio/v150",
+    "//device/soc/hisilicon/ws63v100/sdk/drivers/chips/ws63/porting/pinctrl",
+    "//utils/native/lite/include",
+    "//kernel/liteos_m/kal",
+    "//base/iot_hardware/peripheral/interfaces/kits",
+    "//base/iothardware/peripheral/interfaces/inner_api",
+
+  ]
+} 

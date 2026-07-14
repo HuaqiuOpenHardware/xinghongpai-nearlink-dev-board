@@ -1,0 +1,21 @@
+name: Firmware issue
+description: Report a firmware build or runtime issue.
+title: "[Firmware]: "
+labels: [firmware]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: Describe the build or runtime issue.
+    validations:
+      required: true
+  - type: input
+    id: sdk
+    attributes:
+      label: SDK / OpenHarmony version
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      render: shell

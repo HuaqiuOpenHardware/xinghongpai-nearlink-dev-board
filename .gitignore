@@ -1,0 +1,22 @@
+# KiCad generated files
+*-backups/
+*.bak
+*.kicad_prl
+*.kicad_sch-bak
+*.kicad_pcb-bak
+fp-info-cache
+
+# Build outputs
+out/
+build/
+*.elf
+*.bin
+*.map
+*.hex
+*.log
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

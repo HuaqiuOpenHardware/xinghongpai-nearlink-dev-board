@@ -1,0 +1,17 @@
+static_library("102_flame_demo") {
+  sources = [ 
+    "main.c",
+    "./flame/flame_demo.c",
+  ]
+
+  include_dirs = [
+    "//device/soc/hisilicon/ws63v100/sdk/middleware/utils/app_init",
+    "//device/soc/hisilicon/ws63v100/sdk/kernel/osal/include/debug",
+    "//device/soc/hisilicon/ws63v100/sdk/kernel/osal/include/memory",
+    "//device/soc/hisilicon/ws63v100/sdk/include/driver",
+    "//device/soc/hisilicon/ws63v100/sdk/drivers/drivers/hal/gpio",
+    "//device/soc/hisilicon/ws63v100/sdk/drivers/chips/ws63/porting/gpio",
+    "//device/soc/hisilicon/ws63v100/sdk/drivers/drivers/hal/gpio/v150",
+    "//device/soc/hisilicon/ws63v100/sdk/drivers/chips/ws63/porting/pinctrl",
+  ]
+} 

@@ -1,0 +1,18 @@
+static_library("303_soil_demo") {
+  sources = [ 
+    "main.c",
+  ]
+
+  include_dirs = [
+    "//device/soc/hisilicon/ws63v100/sdk/middleware/utils/app_init",
+    "//device/soc/hisilicon/ws63v100/sdk/kernel/osal/include/debug",
+    "//device/soc/hisilicon/ws63v100/sdk/kernel/osal/include/memory",
+    "//device/soc/hisilicon/ws63v100/sdk/include/driver",
+    "//device/soc/hisilicon/ws63v100/sdk/drivers/drivers/hal/gpio",
+    "//device/soc/hisilicon/ws63v100/sdk/drivers/chips/ws63/porting/gpio",
+    "//device/soc/hisilicon/ws63v100/sdk/drivers/drivers/hal/gpio/v150",
+    "//device/soc/hisilicon/ws63v100/sdk/drivers/chips/ws63/porting/pinctrl",
+    "//device/soc/hisilicon/ws63v100/sdk/drivers/chips/ws63/porting/adc",
+    "//device/soc/hisilicon/ws63v100/sdk/kernel/osal/include/interrupt",
+  ]
+} 

@@ -1,0 +1,28 @@
+{
+  "owner": "HuaqiuOpenHardware",
+  "repository": "xinghongpai-nearlink-dev-board",
+  "description": "Xinghongpai WS63V100/Hi3863 NearLink (SLE) open-source development board with KiCad schematic/PCB, BOM and OpenHarmony examples. 星鸿派星闪开发板。",
+  "homepage": "https://p.eda.cn/d-1328625634846441472",
+  "topics": [
+    "nearlink",
+    "sparklink",
+    "sle",
+    "ws63",
+    "ws63v100",
+    "hi3863",
+    "hisilicon",
+    "openharmony",
+    "development-board",
+    "devboard",
+    "open-hardware",
+    "open-source-hardware",
+    "iot",
+    "embedded",
+    "wireless",
+    "kicad",
+    "schematic",
+    "pcb",
+    "wifi",
+    "bluetooth-low-energy"
+  ]
+}

@@ -1,8 +1,11 @@
-name: Firmware issue
-description: Report a firmware build or runtime issue.
+name: Firmware issue / 固件问题
+description: Report a firmware build or runtime issue / 报告编译或运行问题
 title: "[Firmware]: "
 labels: [firmware]
 body:
+  - type: markdown
+    attributes:
+      value: Remove Wi-Fi passwords, tokens, keys and other credentials before submitting logs.
   - type: textarea
     id: problem
     attributes:
@@ -14,8 +17,26 @@ body:
     id: sdk
     attributes:
       label: SDK / OpenHarmony version
+    validations:
+      required: true
+  - type: input
+    id: example
+    attributes:
+      label: Example path and board revision
+      placeholder: firmware/examples/11_aht20; HXTX_XS_WEAR 4.0 v125
+    validations:
+      required: true
   - type: textarea
     id: logs
     attributes:
       label: Logs
       render: shell
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction steps
+      description: Include the complete build command and runtime procedure.
+    validations:
+      required: true

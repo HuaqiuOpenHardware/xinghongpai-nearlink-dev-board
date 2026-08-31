@@ -1,6 +1,27 @@
-# Xinghongpai NearLink Dev Board
+<h1 align="center">Xinghongpai NearLink Dev Board</h1>
 
-[简体中文](README.md) · [Original project](https://p.eda.cn/d-1328625634846441472) · [Hardware](hardware/) · [Firmware examples](firmware/) · [Source manifest](downloads/MANIFEST.md) · [Contributing](CONTRIBUTING.md)
+<p align="center"><strong>WS63V100 / Hi3863 NearLink Open-Source Development Board</strong></p>
+
+<p align="center">
+  <strong>English</strong> |
+  <a href="README.md">简体中文</a>
+</p>
+
+<p align="center">
+  <a href="https://p.eda.cn/d-1328625634846441472">Original project</a> ·
+  <a href="hardware/">Hardware</a> ·
+  <a href="hardware/bom/">BOM</a> ·
+  <a href="firmware/">Firmware examples</a> ·
+  <a href="downloads/MANIFEST.md">Source manifest</a>
+</p>
+
+<p align="center">
+  🛠️ <a href="https://github.com/HuaqiuOpenHardware/xinghongpai-nearlink-dev-board/issues/new/choose">Report an issue</a>
+  &nbsp;·&nbsp;
+  🤝 <a href="CONTRIBUTING.md">Contribute</a>
+  &nbsp;·&nbsp;
+  ⭐ <a href="https://github.com/HuaqiuOpenHardware/xinghongpai-nearlink-dev-board">Star this project</a>
+</p>
 
 ![Xinghongpai WS63V100 NearLink open-source development board](assets/cover.png)
 
@@ -80,3 +101,17 @@ Use the hardware or firmware Issue template and include the board revision, SDK/
 Original project: [Xinghongpai NearLink Development Board](https://p.eda.cn/d-1328625634846441472) on the Huaqiu Open Hardware Community.
 
 Related terms: NearLink, SLE, SparkLink, Xinghongpai, WS63, WS63V100, Hi3863, HiSilicon, OpenHarmony, open-source hardware, development board, schematic, PCB, BOM and KiCad.
+
+---
+
+## Get help and join the community
+
+Scan the WeChat QR code to contact the **Huaqiu Open Hardware Assistant** for project navigation, community-group access, event information and guidance on submitting project feedback.
+
+<p align="center">
+  <img src="assets/wechat-assistant-qr.png" width="220" alt="Huaqiu Open Hardware Assistant WeChat QR code">
+</p>
+
+<p align="center"><strong>Scan with WeChat to add the assistant</strong></p>
+
+<p align="center">Include “Xinghongpai” in your request so the assistant can route you to the relevant resources and community group.</p>

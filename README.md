@@ -1,6 +1,27 @@
-# Xinghongpai NearLink Dev Board | 星鸿派·星闪开源开发板
+<h1 align="center">Xinghongpai NearLink Dev Board</h1>
 
-[English](README_EN.md) · [原始项目页](https://p.eda.cn/d-1328625634846441472) · [硬件设计](hardware/) · [固件示例](firmware/) · [资料校验](downloads/MANIFEST.md) · [参与贡献](CONTRIBUTING.md)
+<p align="center"><strong>星鸿派 · WS63V100 / Hi3863 星闪开源开发板</strong></p>
+
+<p align="center">
+  <a href="README_EN.md">English</a> |
+  <strong>简体中文</strong>
+</p>
+
+<p align="center">
+  <a href="https://p.eda.cn/d-1328625634846441472">原始项目</a> ·
+  <a href="hardware/">硬件设计</a> ·
+  <a href="hardware/bom/">BOM</a> ·
+  <a href="firmware/">固件示例</a> ·
+  <a href="downloads/MANIFEST.md">资料校验</a>
+</p>
+
+<p align="center">
+  🛠️ <a href="https://github.com/HuaqiuOpenHardware/xinghongpai-nearlink-dev-board/issues/new/choose">提交问题</a>
+  &nbsp;·&nbsp;
+  🤝 <a href="CONTRIBUTING.md">参与贡献</a>
+  &nbsp;·&nbsp;
+  ⭐ <a href="https://github.com/HuaqiuOpenHardware/xinghongpai-nearlink-dev-board">收藏项目</a>
+</p>
 
 ![星鸿派 WS63V100 星闪开源开发板](assets/cover.png)
 
@@ -104,3 +125,24 @@
 原始项目：华秋开源硬件社区「[星鸿派-星闪开发板](https://p.eda.cn/d-1328625634846441472)」。
 
 相关名称：星闪、NearLink、SLE、SparkLink、WS63、WS63V100、Hi3863、HiSilicon、OpenHarmony、open-source hardware、development board、schematic、PCB、BOM、KiCad。
+
+---
+
+## 获取帮助与加入交流
+
+如果你正在查找星闪开发资料、搭建 OpenHarmony / Hi3863 环境、复刻硬件，或希望交流项目使用与二次开发，可以添加 **华秋开源硬件小助手**。
+
+添加后可获取：
+
+- 星鸿派项目资料导航与更新提醒
+- 开源硬件交流群入群方式
+- 社区活动、试用与共创信息
+- Issue 提交和项目反馈指引
+
+<p align="center">
+  <img src="assets/wechat-assistant-qr.png" width="220" alt="华秋开源硬件小助手微信二维码">
+</p>
+
+<p align="center"><strong>微信扫码添加小助手</strong></p>
+
+<p align="center">添加时建议备注“星鸿派”，方便更快对接相关资料与交流群。</p>

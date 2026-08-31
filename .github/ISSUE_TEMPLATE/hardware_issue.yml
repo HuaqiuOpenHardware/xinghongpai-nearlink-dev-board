@@ -1,8 +1,11 @@
-name: Hardware issue
-description: Report a schematic, PCB, BOM or bring-up issue.
+name: Hardware issue / 硬件问题
+description: Report a schematic, PCB, BOM or bring-up issue / 报告原理图、PCB、BOM 或上电问题
 title: "[Hardware]: "
 labels: [hardware]
 body:
+  - type: markdown
+    attributes:
+      value: Please search existing Issues first. Do not include private credentials or unverified performance claims.
   - type: textarea
     id: problem
     attributes:
@@ -15,8 +18,24 @@ body:
     attributes:
       label: Board revision
       placeholder: e.g. HXTX_XS_WEAR 4.0 v125
+    validations:
+      required: true
+  - type: input
+    id: kicad
+    attributes:
+      label: KiCad version
+      placeholder: e.g. 8.x
   - type: textarea
     id: evidence
     attributes:
       label: Evidence
       description: Photos, measurements, logs or reproduction notes.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction steps
+      description: Include power source, connected peripherals and the smallest repeatable procedure.
+    validations:
+      required: true

@@ -15,3 +15,14 @@
 | Firmware | OpenHarmony / Hi3863 examples |
 | Page license field | CERN Open Hardware License |
 | Page body license statement | Apache 2.0 |
+| License status | Exact CERN-OHL hardware variant requires project-owner confirmation |
+| Repository owner | HuaqiuOpenHardware |
+| Repository | xinghongpai-nearlink-dev-board |
+
+## Discovery aliases
+
+星闪 / NearLink / SLE / SparkLink / WS63 / WS63V100 / Hi3863 / HiSilicon / OpenHarmony / development board / open-source hardware / schematic / PCB / BOM / KiCad
+
+## Evidence boundary
+
+This factsheet summarizes the imported project page and repository files. It does not claim independent validation of radio range, power consumption, environmental limits, firmware compatibility or manufacturing readiness.
